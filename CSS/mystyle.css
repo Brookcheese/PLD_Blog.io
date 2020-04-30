@@ -68,7 +68,7 @@ nav ul{
 section{
     width: 100%;
     font-size: 1.6em;
-    color:white;
+    color:#110133;
     
 }
 article{
@@ -92,6 +92,10 @@ h3{
 h3 > a{
     text-decoration:none;
     color: #ffdc34;
+}
+
+h3>a:hover{
+    text-decoration:none;
 }
 
 

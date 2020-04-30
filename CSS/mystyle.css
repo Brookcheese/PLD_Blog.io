@@ -1,18 +1,80 @@
 /* para guardar los css de los estudiantes*/
 
 body{
-  margin:20px;
+      margin:20px;
+    background-color: #4dd599;
+    }
+
+nav {
+    background-color: #110133;
 }
 
 .navbar-dark {
         border-color:#ffdc34;
       }
-  
+
+.color-drop{
+    color: #ffdc34;
+    }
+.color-drop:hover{
+    color:#00918e;
+}
+
+.dropdown-item:hover{
+     background-color: #00918e;
+    color: #ffdc34;
+}
+
+.dropdown-menu{
+    background-color: #110133;
+
+}
+.dropdown-menu a {
+    color: #ffdc34;
+}
+
 .myclass{
      margin-top:20px;
      border:10px solid #110133;
+     width:75%;
+     margin:20px auto;
 
     }
+
+section{
+    border: solid 5px #110133;
+    height: 500px;
+}
+
+.jpage{
+    float: left;
+    width: 500px;
+    padding: 15px;
+}
+
+.ppage{
+    float:left;
+    width:500px;
+    padding: 15px;
+}
+
+p{
+    text-align: justify;
+}
+ .a-button{
+    background-color: #ffdc34;
+    display:inline-block;
+     width: 100px;
+    height: 30px;
+     border-radius: 20px;
+     text-align: center;
+    color:#110133;
+    
+}
+
+.a-button:hover{
+    background-color: #00918e;
+}
 
 .foo{
     background-color:#110133;

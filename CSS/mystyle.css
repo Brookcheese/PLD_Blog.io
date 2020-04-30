@@ -1,7 +1,11 @@
 /* para guardar los css de los estudiantes*/
 
+box-sizing{
+    margin:0px;
+    padding:0px;
+}
 body{
-      margin:20px;
+    margin:5px 20px ;
     background-color: #4dd599;
     }
 
@@ -9,13 +13,32 @@ nav {
     background-color: #110133;
 }
 
+nav ul{
+    font-size: 1.6em;
+}
+
+.navbar-brand{
+    font-family: 'Rock Salt', cursive;
+    font-size: 2em;
+}
+
+.navbar-text{
+    font-family: 'Rock Salt', cursive;
+    font-size: 1.3em;
+    padding-right: 30px;
+    
+}
+
 .navbar-dark {
-        border-color:#ffdc34;
-      }
+    border-color:#ffdc34;
+      
+}
 
 .color-drop{
     color: #ffdc34;
-    }
+    
+}
+
 .color-drop:hover{
     color:#00918e;
 }
@@ -36,52 +59,82 @@ nav {
 .myclass{
      margin-top:20px;
      border:10px solid #110133;
-     width:75%;
+     max-width:90%;
      margin:20px auto;
 
     }
 
 section{
-    border: solid 5px #110133;
-    height: 500px;
+    width: 100%;
+    font-size: 1.6em;
+    color:white;
+    
+}
+article{
+    padding: 1%;
+    width: 33%;
+    display: inline-block;
+    font-size: .88em;
 }
 
-.jpage{
-    float: left;
-    width: 500px;
-    padding: 15px;
-}
 
-.ppage{
-    float:left;
-    width:500px;
-    padding: 15px;
-}
-
-p{
+article>p{
     text-align: justify;
+}
+
+h3{
+    font-size: 1.3em;
+    color: #ffdc34;
+    
+}
+.art-img{
+    float: right;
+    width: 33%;
+    padding-bottom: 1%;
+ 
+    
+}
+
+@media only screen and (max-width: 770px) {
+  article {
+    display: inline;
+  }
+    
+    .art-img{
+        width: 100%;
+        padding-bottom: 20px;
+    }
 }
  .a-button{
     background-color: #ffdc34;
     display:inline-block;
-     width: 100px;
-    height: 30px;
-     border-radius: 20px;
-     text-align: center;
+    width: 110px;
+    height: 40px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 3px;
+    margin-left: 10px;
     color:#110133;
-    
 }
 
 .a-button:hover{
     background-color: #00918e;
+    text-decoration: none;
+    color:white;
 }
 
-.foo{
+
+footer{
     background-color:#110133;
-    width:100%;
-    height:80px;
-    text-align:center;
+    max-height:90%;
     color:#ffdc34;
-    bottom:0px;
-    position:fixed;
+    display: block;
+    clear: both;
+}
+
+
+.foo{
+    
+    text-align:center;
+    padding:20px;
 }
